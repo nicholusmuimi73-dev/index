@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: green;
+}
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+input {
+    padding: 10px;
+    flex: 1;
+}
+button {
+    padding: 10px 20px;
+    background-color: darkgreen;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.paid {
+    color: green;
+    font-weight: bold;
+}
